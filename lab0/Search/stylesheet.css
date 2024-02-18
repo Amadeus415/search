@@ -1,0 +1,37 @@
+.oval {
+    /* make search box oval */
+    border-radius: 25px;
+    padding: 10px 15px;
+    border: 2px solid #ccc;
+    width: 100%;
+    //make border light gray like google
+    border-color: #e6e6e6;
+    border-width: 0.5px;
+    //center the search bar
+}
+
+.custom-input {
+    
+}
+
+//make search box responsive to screen size
+.custom-btn {
+    //color: inherit;
+   
+}
+
+#advanced-search-logo {
+    color: red;
+    //label size twice as big
+    font: sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.input-invisible {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+  

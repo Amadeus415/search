@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+    </head>
+    <body>
+    <!--link boostrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--Link stylesheet.css-->
+    <link rel="stylesheet" href="stylesheet.css">
+
+<!--navbar heading-->
+<nav class="top-nav">
+    <!--button that says about-->
+    <a class="navbar-brand" href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a>
+    <!--button that says store-->
+    <a class="navbar-brand" href="https://store.google.com/?utm_source=hp_header&utm_medium=google_oo&utm_campaign=GS100042">Store</a>
+    <!--button that says gmail-->
+    <a class="navbar-brand" href="https://mail.google.com/mail/u/0/#inbox">Gmail</a>
+    <!--button that says images-->
+    <a class="navbar-brand" href="https://www.google.com/imghp?hl=en&tab=wi&ogbl">Images</a>
+    <!--button that says sign in-->
+    <a class="navbar-brand" href="https://accounts.google.com/ServiceLogin/signinchooser?elo=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin">Sign In</a>
+
+  </nav>
+
+        <!--google logo 15% of size of image-->
+    <div class="container">
+
+        <div class="row center">
+
+            <div class="col-12">
+                <div class="text-center">
+                    <img src="google.png" width="30%" style="margin-top: 5%;" alt="Image">
+                </div>
+        </div>
+        <!--container div end-->
+    </div>
+    
+    <br>  
+        <!--google search oval-->
+        
+
+        <!--google search-->
+        
+        <div class="text-center">
+
+            <form action="https://www.google.com/search" method="GET">
+                <input class="oval-input" type="text" name="q" placeholder="Search Google">
+                <div class="search-buttons">
+                    <input class="btn btn-primary" type="submit" value="Google Search">
+                    <input class="btn btn-primary" id="lucky" type="submit" name="btnI" value="I'm Feeling Lucky">
+                </div>
+            </form>
+        </div>
+          
+
+        <!--google image search-->
+        <div class="text-center">
+            <form class="search" action="https://www.google.com/search" method="GET">
+                <input type="text" name="tbm" value="isch" hidden>
+                <input name="sxsrf" value="APwXEddCEZ3T4ZB_DGY4yomtzvFebnweLA:1681760745967" hidden>
+                <input class="search-oval-input" type="text" name="q" placeholder="Google Image Search">
+        
+            </form>
+        </div>
+        <br>
+
+        <!--google advanced search-->
+        <div id="advanced-search-logo" class="text-center">
+        <label> Advanced Search</label>    
+    </div>
+       
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-sm-12 col-md-12 text-center">
+                <form class="pad" action="https://www.google.com/search" method="GET">
+                    <div class="row mb-3">
+                        <label class="col-md-4 text-end test">All these words:</label>
+                        <div class="col-md-4">
+
+                            <input value="" name="as_q" type="text" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label class="col-md-4 text-end test">This exact word or phrase:</label>
+                        <div class="col-md-4">
+                            <input value="" name="as_epq" type="text" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label class="col-md-4 text-end test">Any of these words:</label>
+                        <div class="col-md-4">
+                            <input value="" name="as_oq" type="text" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label class="col-md-4 text-end test">None of these words:</label>
+                        <div class="col-md-4">
+                            <input value="" name="as_eq test" type="text" class="form-control">
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Search</button>
+                    
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+        <nav class="navbar fixed-bottom navbar-light bg-light">
+            <a class="navbar-brand" href="#">Created by: Amadeus</a>
+            <a class="navbar-brand" href="#">Carbon Neutral</a>
+
+          </nav>
+        
+       
+        
+    </body>
+</html>

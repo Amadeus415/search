@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--bootstrap-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <!--stylesheet.css-->
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+
+    <body>
+        <!--top navbar-->
+        
+        <div class="container-fluid">
+            <div class="row mt-3">
+                <div class="col-6">
+                    <a class="text-dark ml-2" href="https://about.google/?fg=1&utm_source=google-US&utm_medium=referral&utm_campaign=hp-header">About</a>
+                    <a class="text-dark ml-3" href="https://store.google.com/?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=en-US">Store</a>
+                </div>
+                <div class="col-6 text-right">
+                    <a class="text-dark mr-3" href="https://www.google.com/gmail/">Gmail</a>
+                    <a class="text-dark mr-2" href="https://www.google.com/imghp">Images</a>
+                </div>
+            </div>
+
+        </div>
+
+        <!--google logo-->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="text-center">
+                        <img src="google.png" width="275px" style="margin-top: 5%;" alt="Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <!--search bar-->
+        <div class="container">
+            <div class="row">
+                <!--responsive to screen size-->
+                <div class="col-lg-8 col-md-10 col-sm-12 mx-auto"> 
+                    <div class="text-center"> <!--center buttons-->
+                        <form class="form-group" action="https://www.google.com/search" method="get">
+                            <input class ="oval" type="text" name="q" placeholder="Search">
+                            <div class="buttons mt-4">
+                                <button class="btn custom-btn text-dark bg-light border border-light mr-1" type="submit">
+                                    <input class="input-invisible" type="submit" value="Image Search">
+                                </button>
+                                <button class="btn custom-btn text-dark bg-light border border-light ml-1" id="lucky" type="submit" name="btnI">
+                                    <input class="input-invisible" type="submit" value="I'm Feeling Lucky">
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Image search bar-->
+        <div class="container">
+            <div class="row">
+                <!--responsive to screen size-->
+                <div class="col-lg-8 col-md-10 col-sm-12 mx-auto"> 
+                    <div class="text-center"> <!--center buttons-->
+                        <form class="form-group" action="https://www.google.com/search" method="get">
+                            <input class ="oval" type="text" name="q" placeholder="Image Search" >
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Advanced Search Text-->
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div id="advanced-search-logo" class="text-center font-weight-bold text-danger mb-3">
+                        Advanced Search
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Advanced Search-->
+        <form class="container" action="https://www.google.com/search" method="GET">
+            <div class="row d-flex justify-content-center">
+                
+                    <div class="col-8">
+                        <input value="All these words:" name="as_q" type="text" class="form-control mb-3 text-center">
+                        <input value="This exact word or phrase:" name="as_epq" type="text" class="form-control mb-3 text-center">
+                        <input value="Any of these words:" name="as_oq" type="text" class="form-control mb-3 text-center">
+                        <input value="None of these words:" name="as_eq" type="text" class="form-control mb-3 text-center">
+                    </div>
+                    
+
+            </div>
+            <div class="row">
+                <div class="col text-center">
+                    <button type="submit" class="btn btn-primary">Search</button>
+                </div>
+                
+            </div>
+        </form>
+
+        <!--bottom navbar-->
+        <nav class="navbar fixed-bottom navbar-light bg-light py-1">
+            <a class="navbar-brand" href="#">Created by: Amadeus</a>
+            <a class="navbar-brand" href="#">Carbon Neutral</a>
+        </nav>
+
+    </body>
+
+
+</html>

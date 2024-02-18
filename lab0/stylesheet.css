@@ -1,0 +1,73 @@
+.search {
+    padding-top: 10px;
+}
+
+.test {
+    text-align: right;
+}
+
+.navbar-topright {
+    float: right;
+    margin-top: 10px;
+}
+
+.oval-input {
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    width: 30%;
+    background-image: url('search.svg');
+    background-repeat: no-repeat;
+    background-position: 95% center;
+}
+
+.search-oval-input {
+    border-radius: 20px;
+    padding: 10px;
+    border: 1px solid black;  
+    width: 30%;
+    background-image: url('image.svg');
+    background-repeat: no-repeat;
+    background-position: 95% center;
+}
+
+//adding padding to bottom of advanced search form
+
+
+.top-nav a {
+    color: black;
+  text-decoration: none;
+  border: none;
+  background-color: transparent;
+  padding: 10px;
+  margin: 0 10px;
+  font-size: 16px;
+
+  cursor: pointer;
+}
+
+.top-nav a:hover {
+  text-decoration: underline;
+}
+
+
+.luck button{
+    color: red;
+    
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    
+}
+  
+
+#advanced-search-logo {
+    color: red;
+    //label size twice as big
+    font: sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+  
